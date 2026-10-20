@@ -1,7 +1,7 @@
 [project]
 name = "nlpproyect"
 version = "0.1.0"
-description = "Add your description here"
+description = "Proyecto NLP"
 readme = "README.md"
 authors = [
     { name = "maitanelizarraga", email = "maitane.lizarraga@opendeusto.es" }
@@ -24,13 +24,6 @@ dependencies = [
     "torch>=2.14.1",
     "transformers>=5.20.1",
 ]
-
-[project.scripts]
-nlpproyect = "nlpproyect:main"
-
-[build-system]
-requires = ["uv_build>=0.12.23,<0.13.0"]
-build-backend = "uv_build"
 
 [tool.uv]
 package = false
